@@ -30,7 +30,7 @@ for recipe in recipes_dirs:
             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="{img}" alt="Recipe Image">
             <div class="card-body">
               <p class="card-text">{recipe_json['name']}</p>
-              <a href="./frontend/recipes/{recipe}/index.html">recipe</a>
+              <a href="./recipes/{recipe}/index.html">recipe</a>
               <div class="d-flex justify-content-between align-items-center">
                 </div>
                 <small class="text-body-secondary">{recipe_json['time']} min</small>
